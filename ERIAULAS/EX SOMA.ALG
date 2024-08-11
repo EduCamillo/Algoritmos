@@ -2,16 +2,16 @@ Algoritmo "mensagem"
 
 Var
 // Seção de Declarações das variáveis 
-a, b: inteiro
+a, b: real
      s: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-  escreva ("informe dois numeros inteiros: ")
-   leia (a,b)
+  escreval("informe dois numeros inteiros: ")
+   leia (a)
+   leia (b)
+   s := a + b
 
-  a <- a + b
-
- escreva("A soma de ",a," mais ",b," é igual a ",s," ")
+ escreval("A soma de ",a," mais ",b," é igual a ",s,". ")
 
 Fimalgoritmo
