@@ -1,16 +1,17 @@
 Algoritmo "mensagem"
 
 Var
-// Seção de Declarações das variáveis 
- a, b, s, : inteiro
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
+a, b: inteiro
+     s: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
   escreva ("informe dois numeros inteiros: ")
    leia (a,b)
 
   a <- a + b
 
- escreva("A soma de ",a," é igual a ",s," ")
+ escreva("A soma de ",a," mais ",b," Ã© igual a ",s," ")
 
 Fimalgoritmo
